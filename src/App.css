@@ -4,3 +4,8 @@
   box-sizing: border-box;
   font-family: "poppins";
 }
+a{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
