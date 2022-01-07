@@ -6,6 +6,10 @@ import TatswapLogo from "./Tatswap.png";
 import sponsorBg from "./SponsorBg.png";
 import heroArrow from "./HeroArrow.png";
 import heroImg from "./HeroImg.png";
+import flexibilityIcon from "./Flexibility.png";
+import lowCostIcon from "./LowCost.png";
+import cardArrowIcon from "./CardArrow.png";
+import reward from "./Reward.png";
 
 export const Logo = LogoRaw;
 export const NavBg = navBG;
@@ -15,6 +19,10 @@ export const Tatswap = TatswapLogo;
 export const SponsorBg = sponsorBg;
 export const HeroArrow = heroArrow;
 export const HeroImg = heroImg;
+export const FlexibilityIcon = flexibilityIcon;
+export const LowCostIcon = lowCostIcon;
+export const CardArrowIcon = cardArrowIcon;
+export const RewardIcon = reward;
 
 
 
