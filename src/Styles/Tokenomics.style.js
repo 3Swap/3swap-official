@@ -5,6 +5,10 @@ const TokenomicsWrapper = styled.div`
 display: flex;
 .tokenomics-container{
     padding:40px;
+    .chart{
+        width:700px;
+        margin-top: 50px;
+    }
     .tokenomics{
         display:flex;
         flex-direction:column;
@@ -26,7 +30,7 @@ display: flex;
             }
             h3{
                 margin-left:10px;
-                font-size: 16px;
+                font-size: 20px;
             }
         }
     }
