@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { NavBg,SplashColor } from "../Assets/Utility";
+import { NavBg } from "../Assets/Utility";
 const NavWrapper = styled.div`
 	display: flex;
 	align-items: center;
@@ -21,14 +21,6 @@ const NavWrapper = styled.div`
 		a {
 			padding: 10px;
 			color:white;
-		}
-		button{
-			border:none;
-			outline:none;
-			background: ${SplashColor};
-			padding: 10px 20px;
-			border-radius: 5px;
-			font-weight:bold;
 		}
 	}
 `;
