@@ -14,10 +14,11 @@ const HeroWrapper = styled.div`
 			font-size: 50px;
 			font-weight: 900;
 			margin-top: 40px;
+            color: black;
 		}
 		.cta-container {
 			width: 40%;
-			margin-left: 230px;
+			margin-left: 200px;
 			margin-top: 20px;
 			p {
 				font-size: 24px;
@@ -33,7 +34,7 @@ const HeroWrapper = styled.div`
 	}
 	.sponsors {
 		background: purple;
-		padding: 30px;
+		padding: 50px;
 		padding-bottom: 80px;
 		margin-top: 50px;
 		/* width: 70%; */
@@ -42,20 +43,20 @@ const HeroWrapper = styled.div`
 		h3 {
 			color: ${SplashColor};
 			position: absolute;
-			margin-top: 45px;
+			margin-top: 35px;
 		}
 		.logo-container {
 			margin-top: 100px;
 			margin-left: -50px;
 			img {
 				margin-left: 50px;
-				height: 28px;
+				height: 35px;
 			}
 		}
 	}
 
 	.hero-img {
-        width: 50%;
+        width: 45%;
 		position: absolute;
 		top: 10px;
         left: 65%;

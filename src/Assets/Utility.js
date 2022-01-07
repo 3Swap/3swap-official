@@ -9,10 +9,17 @@ import heroImg from "./HeroImg.png";
 
 export const Logo = LogoRaw;
 export const NavBg = navBG;
-export const SplashColor = "#FCE8A5";
 export const Vefi = vefiLogo;
 export const Hagglex = HagglexLogo;
 export const Tatswap = TatswapLogo;
 export const SponsorBg = sponsorBg;
 export const HeroArrow = heroArrow;
 export const HeroImg = heroImg;
+
+
+
+
+// Colors
+
+export const SplashColor = "#FCE8A5";
+export const PrimaryColor = "#6E00FF";
