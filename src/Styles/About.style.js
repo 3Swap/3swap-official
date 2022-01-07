@@ -3,6 +3,7 @@ import { PrimaryColor, SplashColor } from "../Assets/Utility";
 
 const AboutWrapper = styled.div`
 	padding: 20px;
+	padding-bottom: 40px;
 	background: ${PrimaryColor};
 	.about-container {
 		width: 60%;
