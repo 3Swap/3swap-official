@@ -40,7 +40,8 @@ const WhyWrapper = styled.div`
 			.card-arrow {
                 position: absolute;
 				align-self: flex-end;
-				margin-top: 80%;
+				width: 35px;
+				top: 85%;
 			}
 			:nth-child(2) {
 				background: #e4d0ff;

@@ -3,6 +3,7 @@ import About from './Components/About';
 import Hero from './Components/Hero';
 import Nav from './Components/Nav';
 import RoadMap from './Components/RoadMap';
+import SocialMedia from './Components/SocialMedia';
 import Tokenomics from './Components/Tokenomics';
 import Why from './Components/Why';
 
@@ -14,7 +15,8 @@ function App() {
       <About />
       <Tokenomics />
       <RoadMap />
-      <Why/>
+      <Why />
+      <SocialMedia/>
     </div>
   );
 }

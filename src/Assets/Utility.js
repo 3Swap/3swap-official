@@ -10,6 +10,22 @@ import flexibilityIcon from "./Flexibility.png";
 import lowCostIcon from "./LowCost.png";
 import cardArrowIcon from "./CardArrow.png";
 import reward from "./Reward.png";
+import Instagram from "./Instagram.png";
+import Telegram from "./Telegram.png";
+import Twitter from "./Twitter.png";
+import Facebook from "./Facebook.png";
+import Discord from "./Discord.png";
+import Youtube from "./Youtube.png";
+import Medium from "./Medium.png";
+import Quoteicon from "./Quoteicon.png";
+
+
+
+
+
+
+
+
 
 export const Logo = LogoRaw;
 export const NavBg = navBG;
@@ -23,6 +39,14 @@ export const FlexibilityIcon = flexibilityIcon;
 export const LowCostIcon = lowCostIcon;
 export const CardArrowIcon = cardArrowIcon;
 export const RewardIcon = reward;
+export const InstagramIcon = Instagram;
+export const TelegramIcon = Telegram;
+export const TwitterIcon = Twitter;
+export const FacebookIcon = Facebook;
+export const DiscordIcon = Discord;
+export const YoutubeIcon = Youtube;
+export const MediumIcon = Medium;
+export const QuoteIcon = Quoteicon;
 
 
 
