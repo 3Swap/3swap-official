@@ -8,8 +8,8 @@ import {
 	TwitterIcon,
 	YoutubeIcon,
 } from "../Assets/Utility";
-import { Primary } from "../Styles/Buttons.stye";
-import SocialMediaWrapper from "../Styles/SocialMedia.styles";
+import { Primary } from "../Styles/Buttons.style";
+import SocialMediaWrapper from "../Styles/SocialMedia.style";
 
 function SocialMedia() {
 	return (

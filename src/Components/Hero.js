@@ -1,5 +1,5 @@
 import { Hagglex, HeroArrow, HeroImg, Tatswap, Vefi } from "../Assets/Utility";
-import { Primary } from "../Styles/Buttons.stye";
+import { Primary } from "../Styles/Buttons.style";
 import HeroWrapper from "../Styles/Hero.style";
 
 function Hero() {

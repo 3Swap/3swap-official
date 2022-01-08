@@ -63,3 +63,4 @@ export const Image4= Img4;
 
 export const SplashColor = "#FCE8A5";
 export const PrimaryColor = "#6E00FF";
+export const SecondaryColor = "#4500A0";

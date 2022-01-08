@@ -1,5 +1,6 @@
 import './App.css';
 import About from './Components/About';
+import Footer from './Components/Footer';
 import Hero from './Components/Hero';
 import Nav from './Components/Nav';
 import RoadMap from './Components/RoadMap';
@@ -18,7 +19,8 @@ function App() {
       <RoadMap />
       <Why />
       <SocialMedia />
-      <Team/>
+      <Team />
+      <Footer/>
     </div>
   );
 }

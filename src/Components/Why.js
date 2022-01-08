@@ -1,5 +1,5 @@
 import { CardArrowIcon, FlexibilityIcon, LowCostIcon, RewardIcon } from "../Assets/Utility";
-import { Primary } from "../Styles/Buttons.stye";
+import { Primary } from "../Styles/Buttons.style";
 import WhyWrapper from "../Styles/Why.style";
 
 function Why() {

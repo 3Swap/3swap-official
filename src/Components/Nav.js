@@ -1,5 +1,5 @@
 import { Logo } from "../Assets/Utility";
-import { Primary } from "../Styles/Buttons.stye";
+import { Primary } from "../Styles/Buttons.style";
 import NavWrapper from "../Styles/Nav.style";
 
 function Nav() {
