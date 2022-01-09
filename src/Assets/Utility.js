@@ -22,6 +22,7 @@ import Img1 from "./Img1.png";
 import Img2 from "./Img2.png";
 import Img3 from "./Img3.png";
 import Img4 from "./Img4.png";
+import coins from "./Coins.png";
 
 
 
@@ -55,6 +56,7 @@ export const Image1= Img1;
 export const Image2= Img2;
 export const Image3= Img3;
 export const Image4= Img4;
+export const Coins = coins;
 
 
 

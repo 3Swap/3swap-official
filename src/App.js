@@ -13,8 +13,8 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      {/* <Hero />
-      <About />
+      <Hero />
+      {/* <About />
       <Tokenomics />
       <RoadMap />
       <Why />
