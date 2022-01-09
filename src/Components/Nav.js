@@ -18,6 +18,32 @@ function Nav() {
 						<button>Connect wallet</button>
 					</Primary>
 				</div>
+				<svg
+					id="Hamburger"
+					xmlns="http://www.w3.org/2000/svg"
+					width="46"
+					height="46"
+					viewBox="0 0 46 46"
+				>
+					<circle
+						cx="23"
+						cy="23"
+						r="23"
+						fill="#6e00ff"
+					/>
+					<rect
+						width="23"
+						height="4"
+						transform="translate(12 17)"
+						fill="#fff"
+					/>
+					<rect
+						width="23"
+						height="4"
+						transform="translate(12 25)"
+						fill="#fff"
+					/>
+				</svg>
 			</NavWrapper>
 		);
 
