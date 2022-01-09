@@ -17,8 +17,8 @@ function App() {
       <About />
       <Tokenomics />
       <RoadMap />
-      {/* <Why />
-      <SocialMedia />
+      <Why />
+      {/* <SocialMedia />
       <Team />
       <Footer/> */}
     </div>
