@@ -12,6 +12,7 @@ const AboutWrapper = styled.div`
 		@media (max-width: 900px) {
 			width: 100%;
 			margin-left: 10px;
+			margin-top: 0px;
 		}
 
 		h4 {
@@ -30,6 +31,9 @@ const AboutWrapper = styled.div`
 			font-size: 18px;
 			width: 90%;
 			color: #dedede;
+			@media (max-width: 900px) {
+				line-height: 30px;
+			}
 		}
 	}
 `;

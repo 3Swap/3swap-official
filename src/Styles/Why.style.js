@@ -39,6 +39,7 @@ const WhyWrapper = styled.div`
 			@media (max-width: 900px) {
 				width: 100%;
 				margin-top: 20px;
+				height: 300px;
 
 			}
 			.heading {

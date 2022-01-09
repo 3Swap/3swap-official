@@ -9,6 +9,13 @@ const HeroWrapper = styled.div`
 	position: relative;
 	@media (max-width: 900px) {
 		position: relative;
+		height: 95vh;
+	}
+	@media (min-height: 840px) and (max-height: 920px) {
+		height: fit-content;
+	}
+	@media (min-height: 600px) and (max-height: 800px) {
+		height: fit-content;
 	}
 	.cta-wrapper {
 		padding-left: 30px;
