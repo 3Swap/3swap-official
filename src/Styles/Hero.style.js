@@ -8,7 +8,7 @@ const HeroWrapper = styled.div`
 	height: 90vh;
 	position: relative;
 	@media (max-width: 900px) {
-		position:relative;
+		position: relative;
 	}
 	.cta-wrapper {
 		padding-left: 30px;
@@ -58,9 +58,10 @@ const HeroWrapper = styled.div`
 		background: url(${SponsorBg});
 		background-size: cover;
 		@media (max-width: 900px) {
-			margin-top: 225px;
+			margin-top: 255px;
 			padding-left: 20px;
-			overflow:hidden;
+			overflow: hidden;
+			background-size: 1000px;
 		}
 		h3 {
 			color: ${SplashColor};

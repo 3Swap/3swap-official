@@ -14,8 +14,8 @@ function App() {
     <div className="App">
       <Nav />
       <Hero />
-      {/* <About />
-      <Tokenomics />
+      <About />
+      {/* <Tokenomics />
       <RoadMap />
       <Why />
       <SocialMedia />
