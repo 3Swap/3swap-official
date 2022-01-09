@@ -90,7 +90,7 @@ function RoadMap() {
 			</svg>
 			<div className="roadmap-content">
 				<div className="content-container">
-					<h3>Phase 1</h3>
+					<h3 className="special">Phase 1</h3>
 					<p>Team building and whitepaper creation</p>
 				</div>
 				<div className="content-container">

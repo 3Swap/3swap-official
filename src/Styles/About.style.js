@@ -7,8 +7,13 @@ const AboutWrapper = styled.div`
 	background: ${PrimaryColor};
 	.about-container {
 		width: 60%;
-        margin-left: 30px;
-        margin-top: 60px;
+		margin-left: 30px;
+		margin-top: 60px;
+		@media (max-width: 900px) {
+			width: 100%;
+			margin-left: 10px;
+			margin-top: 0px;
+		}
 
 		h4 {
 			color: ${SplashColor};
@@ -17,11 +22,18 @@ const AboutWrapper = styled.div`
 			color: white;
 			font-size: 45px;
 			width: 60%;
+			@media (max-width: 900px) {
+				width: 90%;
+				font-size: 32px;
+			}
 		}
 		p {
 			font-size: 18px;
-            width: 90%;
+			width: 90%;
 			color: #dedede;
+			@media (max-width: 900px) {
+				line-height: 30px;
+			}
 		}
 	}
 `;

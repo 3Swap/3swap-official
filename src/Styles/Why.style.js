@@ -1,20 +1,31 @@
 import styled from "styled-components";
 
-
 const WhyWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	padding: 170px 50px;
+	@media (max-width: 900px) {
+		padding: 70px 30px;
+	}
 	.why-content {
 		width: 400px;
 		p {
 			margin-bottom: 20px;
 		}
+	@media (max-width: 900px) {
+		width:100%;
+
+	}
 	}
 	.why-cards {
 		display: flex;
-        margin-top: 35px;
-        margin-left: 100px;
+		margin-top: 35px;
+		margin-left: 100px;
+		@media (max-width: 900px) {
+			flex-direction: column;
+			align-items:center;
+			margin-left: -20px;
+		}
 		.card {
 			display: flex;
 			flex-direction: column;
@@ -23,8 +34,14 @@ const WhyWrapper = styled.div`
 			height: 400px;
 			background: #ffe4f5;
 			padding: 30px 20px;
-            position:relative;
-            margin-left: 25px;
+			position: relative;
+			margin-left: 25px;
+			@media (max-width: 900px) {
+				width: 100%;
+				margin-top: 20px;
+				height: 300px;
+
+			}
 			.heading {
 				display: flex;
 				flex-direction: column;
@@ -38,9 +55,10 @@ const WhyWrapper = styled.div`
 				margin-top: 20px;
 			}
 			.card-arrow {
-                position: absolute;
+				position: absolute;
 				align-self: flex-end;
-				margin-top: 80%;
+				width: 35px;
+				top: 85%;
 			}
 			:nth-child(2) {
 				background: #e4d0ff;
