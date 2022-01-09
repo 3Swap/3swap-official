@@ -15,9 +15,16 @@ const FooterWrapper = styled.div`
 		padding: 50px 20px;
 		align-items: center;
 		color: white;
+		@media (max-width: 900px) {
+			width: 90%;
+			h1{
+				font-size:18px;
+				align-self: center;
+			}
+		}
 		.counter {
 			display: flex;
-            margin-bottom: 30px;
+			margin-bottom: 30px;
 			.count-container {
 				padding: 20px;
 				display: flex;
@@ -25,11 +32,11 @@ const FooterWrapper = styled.div`
 				align-items: center;
 				.count {
 					background: ${SecondaryColor};
-                    width: 60px;
-                    height: 60px;
-                    display:flex;
-                    justify-content: center;
-                    align-content: center;
+					width: 60px;
+					height: 60px;
+					display: flex;
+					justify-content: center;
+					align-content: center;
 					padding: 10px;
 				}
 			}
