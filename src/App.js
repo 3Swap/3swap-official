@@ -16,8 +16,8 @@ function App() {
       <Hero />
       <About />
       <Tokenomics />
-      {/* <RoadMap />
-      <Why />
+      <RoadMap />
+      {/* <Why />
       <SocialMedia />
       <Team />
       <Footer/> */}
