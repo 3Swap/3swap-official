@@ -15,8 +15,8 @@ function App() {
       <Nav />
       <Hero />
       <About />
-      {/* <Tokenomics />
-      <RoadMap />
+      <Tokenomics />
+      {/* <RoadMap />
       <Why />
       <SocialMedia />
       <Team />

@@ -11,7 +11,7 @@ const AboutWrapper = styled.div`
 		margin-top: 60px;
 		@media (max-width: 900px) {
 			width: 100%;
-			margin-left: 20px;
+			margin-left: 10px;
 		}
 
 		h4 {
