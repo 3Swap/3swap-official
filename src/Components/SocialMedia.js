@@ -53,8 +53,8 @@ function SocialMedia() {
 						<img src={MediumIcon} alt="" />
 					</a>
 				</div>
-            </div>
-            <img src={QuoteIcon} alt="" className="quote-icon" />
+			</div>
+			<img src={QuoteIcon} alt="" className="quote-icon" />
 		</SocialMediaWrapper>
 	);
 }

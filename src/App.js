@@ -18,9 +18,9 @@ function App() {
       <Tokenomics />
       <RoadMap />
       <Why />
-      {/* <SocialMedia />
+      <SocialMedia />
       <Team />
-      <Footer/> */}
+      {/* <Footer/> */}
     </div>
   );
 }
