@@ -1,11 +1,4 @@
-import {
-  Coins,
-  Hagglex,
-  HeroArrow,
-  HeroImg,
-  Tatswap,
-  Vefi,
-} from '../Assets/Utility';
+import { Hagglex, HeroArrow, Tatswap, Vefi } from '../Assets/Utility';
 import { Primary } from '../Styles/Buttons.style';
 import HeroWrapper from '../Styles/Hero.style';
 import { Container } from '../Styles/Nav.style';
