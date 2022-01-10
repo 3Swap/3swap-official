@@ -1,16 +1,15 @@
 import styled from 'styled-components';
-import { SplashColor, SponsorBg, Bg } from '../Assets/Utility';
+import { SplashColor, Bg } from '../Assets/Utility';
 
 const HeroWrapper = styled.div`
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  height: 90vh;
-
+  height: 100vh;
   position: relative;
   @media (max-width: 900px) {
     position: relative;
-    height: 95vh;
+    height: 100%;
   }
   @media (min-height: 840px) and (max-height: 920px) {
     height: fit-content;
@@ -19,16 +18,20 @@ const HeroWrapper = styled.div`
     height: fit-content;
   }
   .cta-wrapper {
-    padding: 40px 0px 60px 30px;
+    padding: 40px 0px 60px 0px;
     h1 {
       width: 65%;
       font-size: 50px;
-      font-weight: 900;
+      font-weight: 800;
+      line-height: 65px;
       margin-top: 40px;
       color: black;
       @media (max-width: 900px) {
         font-size: 24px;
-        width: 90%;
+        width: 100%;
+      }
+      @media (min-width: 1400px) {
+        max-width: 20ch;
       }
     }
     .cta-container {
@@ -42,7 +45,7 @@ const HeroWrapper = styled.div`
       p {
         font-size: 16px;
         max-width: 30ch;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         @media (max-width: 900px) {
           font-size: 14px;
         }
@@ -51,11 +54,28 @@ const HeroWrapper = styled.div`
     .hero-arrow {
       position: absolute;
       width: 100px;
-      margin-top: 20px;
+      margin-top: 0px;
       margin-left: 50px;
+      img {
+        height: 90px;
+      }
       @media (max-width: 900px) {
         width: 60px;
         margin-left: 10px;
+
+        img {
+          height: 70px;
+        }
+      }
+    }
+    @media screen and (max-width: 900px) {
+      padding: 40px 20px 0px 20px;
+      text-align: center;
+
+      h1 {
+        width: 100%;
+        font-size: 25px;
+        line-height: 38px;
       }
     }
   }
@@ -67,45 +87,7 @@ const HeroWrapper = styled.div`
 
     background-size: cover;
   }
-  /* .sponsors {
-    background: purple;
-    padding: 50px;
-    padding-bottom: 80px;
-    margin-top: 50px;
-    background: url(${SponsorBg});
-    background-size: cover;
-    @media (max-width: 900px) {
-      margin-top: 255px;
-      padding-left: 20px;
-      overflow: hidden;
-      background-size: 1000px;
-    }
-    h3 {
-      color: ${SplashColor};
-      position: absolute;
-      margin-top: 35px;
-      @media (max-width: 900px) {
-        margin-top: 25px;
-      }
-    }
-    .logo-container {
-      margin-top: 100px;
-      margin-left: -50px;
-      @media (max-width: 900px) {
-        display: flex;
-        margin-left: -20px;
-        margin-top: 90px;
-      }
-      img {
-        margin-left: 50px;
-        height: 35px;
-        @media (max-width: 900px) {
-          height: 25px;
-          margin-left: 20px;
-        }
-      }
-    }
-  } */
+
   .sponsors {
     padding-top: 20px;
 
@@ -118,7 +100,6 @@ const HeroWrapper = styled.div`
         margin-top: 25px;
       }
       @media (min-width: 1400px) {
-        background: red;
       }
     }
   }
@@ -143,20 +124,35 @@ const HeroWrapper = styled.div`
       }
     }
   }
+  .cta-wrapper-right {
+    .hero-img {
+      width: 500px;
+      position: absolute;
+      top: 10px;
+      right: 0;
+      transform: rotate(-8deg);
+      @media (max-width: 900px) {
+        display: none;
+      }
+      @media (min-width: 1400px) {
+        height: 630px;
+        width: 500px;
+        object-fit: contain;
+        top: 0;
+      }
+    }
 
-  .hero-img {
-    width: 45%;
-    position: absolute;
-    top: 10px;
-    left: 65%;
-    @media (max-width: 900px) {
-      display: none;
+    @media screen and (max-width: 900px) {
+      display: flex;
+      .mobile-hero-img {
+        width: 100%;
+        height: 400px;
+        object-fit: contain;
+      }
     }
   }
+
   .mobile-hero-img {
-    position: absolute;
-    width: 100%;
-    top: 250px;
     @media (min-width: 900px) {
       display: none;
     }

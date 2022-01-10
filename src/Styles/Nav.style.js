@@ -60,4 +60,8 @@ export const Container = styled.div`
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+
+  @media (min-width: 1400px) {
+    max-width: 1400px;
+  }
 `;

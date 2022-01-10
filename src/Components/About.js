@@ -9,11 +9,11 @@ function About() {
           <h4> About us</h4>
           <h1>We are the dex swap of the future.</h1>
           <p>
-            3Swap Is A Decentralized Exchange Built On Various EVM-Compatible
-            Chains That Allows Users To Swap Two Tokens For One With Little Or
-            No Fees. Asides From The Perk Of Swapping Two Tokens For One, 3Swap
-            Allows Liquidity Providers To Earn More By Allowing The Provision Of
-            Liquidity For Three Tokens.
+            3Swap is a Decentralized Exchange built on various EVM-Compatible
+            Chains that allows users to swap two tokens for one with little or
+            no fees. asides from the perk of swapping two tokens for one, 3Swap
+            allows Liquidity providers to earn more by allowing the provision of
+            Liquidity for three tokens.
           </p>
         </div>
       </Container>

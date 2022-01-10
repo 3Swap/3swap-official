@@ -55,5 +55,5 @@ export const Bg = bg;
 // Colors
 
 export const SplashColor = '#FCE8A5';
-export const PrimaryColor = '#6E00FF';
-export const SecondaryColor = '#4500A0';
+export const SecondaryColor = '#6E00FF';
+export const PrimaryColor = '#4500A0';

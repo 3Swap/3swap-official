@@ -36,6 +36,7 @@ const TokenomicsWrapper = styled.div`
         svg {
           width: 30px;
           height: 20px;
+          margin-right: 5px;
         }
       }
     }

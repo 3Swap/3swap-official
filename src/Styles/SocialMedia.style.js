@@ -1,10 +1,9 @@
 import styled from 'styled-components';
-import { PrimaryColor, SplashColor } from '../Assets/Utility';
 
 const SocialMediaWrapper = styled.div`
   display: flex;
   padding: 50px 20px 80px 20px;
-  background: ${PrimaryColor};
+  background: var(--bg-primary);
   position: relative;
   @media (max-width: 900px) {
     flex-direction: column;
@@ -36,7 +35,7 @@ const SocialMediaWrapper = styled.div`
         max-width: 25ch;
         font-size: 32px;
         line-height: 40px;
-        color: ${SplashColor};
+        color: #fff;
         font-weight: 800;
         @media (max-width: 900px) {
           width: 100%;
@@ -47,7 +46,7 @@ const SocialMediaWrapper = styled.div`
         font-size: 16px;
         width: 500px;
         margin: 20px 0 30px 0;
-        color: white;
+        color: #ccc;
 
         @media (max-width: 900px) {
           width: 100%;
@@ -87,9 +86,9 @@ const SocialMediaWrapper = styled.div`
       @media screen and (min-width: 1400px) {
         h1 {
           width: 700px;
-          font-size: 32px;
+          font-size: 34px;
           line-height: 40px;
-          color: ${SplashColor};
+          color: #fff;
           font-weight: 800;
         }
       }

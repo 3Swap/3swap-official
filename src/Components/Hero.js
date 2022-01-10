@@ -1,4 +1,11 @@
-import { Hagglex, HeroArrow, Tatswap, Vefi } from '../Assets/Utility';
+import {
+  Coins,
+  Hagglex,
+  HeroArrow,
+  HeroImg,
+  Tatswap,
+  Vefi,
+} from '../Assets/Utility';
 import { Primary } from '../Styles/Buttons.style';
 import HeroWrapper from '../Styles/Hero.style';
 import { Container } from '../Styles/Nav.style';
@@ -28,7 +35,8 @@ function Hero() {
             </div>
           </div>
           <div className="cta-wrapper-right">
-            {/* <img src={HeroImg} alt="" className="hero-img" /> */}
+            <img src={HeroImg} alt="" className="hero-img" />
+            <img src={Coins} alt="" className="mobile-hero-img" />
           </div>
         </div>
       </Container>
