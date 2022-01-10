@@ -5,13 +5,17 @@ const SocialMediaWrapper = styled.div`
   padding: 50px 20px 80px 20px;
   background: var(--bg-primary);
   position: relative;
-  @media (max-width: 900px) {
+  @media screen and (max-width: 900px) {
     flex-direction: column;
     align-content: center;
   }
   .socialMedia-wrapper {
     width: 100%;
     display: flex;
+
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
+    }
   }
   .quote-icon {
     position: absolute;
@@ -37,9 +41,11 @@ const SocialMediaWrapper = styled.div`
         line-height: 40px;
         color: #fff;
         font-weight: 800;
-        @media (max-width: 900px) {
+        @media screen and (max-width: 900px) {
           width: 100%;
-          font-size: 24px;
+          max-width: 30ch;
+          font-size: 22px;
+          line-height: 36px;
         }
       }
       p {
@@ -52,6 +58,9 @@ const SocialMediaWrapper = styled.div`
           width: 100%;
         }
       }
+      @media screen and (max-width: 900px) {
+        padding: 0 10px;
+      }
     }
 
     .icon-wrapper {
@@ -59,9 +68,10 @@ const SocialMediaWrapper = styled.div`
       margin-top: 150px;
       flex-wrap: wrap;
       margin-left: 40px;
-      @media (max-width: 900px) {
+      @media screen and (max-width: 900px) {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 60px;
+        margin-left: 0;
       }
       @media screen and (min-width: 1400px) {
         width: 100%;

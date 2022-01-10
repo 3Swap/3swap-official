@@ -11,10 +11,10 @@ const RoadMapWrapper = styled.div`
   h1 {
     margin-bottom: 10px;
   }
-  @media (max-width: 900px) {
+  @media screen and (max-width: 900px) {
     padding: 20px;
     h1 {
-      font-size: 24px;
+      font-size: 28px;
     }
   }
   svg {
@@ -33,8 +33,11 @@ const RoadMapWrapper = styled.div`
     }
     .content-container {
       margin-left: 10px;
-      @media (max-width: 900px) {
-        margin-top: 20px;
+      @media screen and (max-width: 900px) {
+        margin: 10px 0px;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
         h3 {
           color: '#4500A0';
           color: ${PrimaryColor};
@@ -44,15 +47,16 @@ const RoadMapWrapper = styled.div`
       p {
         width: 200px;
         font-size: 16px;
-        @media (max-width: 900px) {
-          font-size: 20px;
-          width: 80%;
+        @media screen and (max-width: 900px) {
+          font-size: 16px;
+          font-weight: 400;
+          width: 100%;
         }
       }
       :nth-child(1) {
         margin-left: 20px;
         @media (max-width: 900px) {
-          margin-left: unset;
+          margin-left: 0px;
         }
       }
     }

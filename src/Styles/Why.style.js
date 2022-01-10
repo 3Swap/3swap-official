@@ -5,8 +5,9 @@ const WhyWrapper = styled.div`
   display: flex;
   flex-direction: column;
   padding: 80px 0px 170px 0px;
-  @media (max-width: 900px) {
-    padding: 70px 30px;
+
+  @media screen and (max-width: 900px) {
+    padding: 70px 20px;
   }
   .why-content {
     width: 400px;
@@ -33,10 +34,10 @@ const WhyWrapper = styled.div`
     margin-top: 35px;
     justify-content: center;
 
-    @media (max-width: 900px) {
+    @media screen and (max-width: 900px) {
       flex-direction: column;
       align-items: center;
-      margin-left: -20px;
+      width: 100%;
     }
     .card {
       display: flex;
@@ -49,10 +50,11 @@ const WhyWrapper = styled.div`
       border-radius: 8px;
       position: relative;
       margin-left: 25px;
-      @media (max-width: 900px) {
+      @media screen and (max-width: 900px) {
         width: 100%;
         margin-top: 20px;
         height: 300px;
+        margin-left: 0px;
       }
       .heading {
         display: flex;

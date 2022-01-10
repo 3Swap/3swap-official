@@ -69,7 +69,7 @@ const HeroWrapper = styled.div`
       }
     }
     @media screen and (max-width: 900px) {
-      padding: 40px 20px 0px 20px;
+      padding: 0px 20px 0px 20px;
       text-align: center;
 
       h1 {
@@ -84,7 +84,6 @@ const HeroWrapper = styled.div`
     background: url(${Bg});
     background-repeat: no-repeat;
     width: 100%;
-
     background-size: cover;
   }
 
@@ -96,31 +95,34 @@ const HeroWrapper = styled.div`
       margin-top: 35px;
       font-size: 30px;
       margin-bottom: 20px;
-      @media (max-width: 900px) {
+      @media screen and (max-width: 900px) {
         margin-top: 25px;
+        margin-bottom: 5px;
       }
-      @media (min-width: 1400px) {
-      }
+    }
+    @media screen and (max-width: 900px) {
+      padding: 30px 20px;
     }
   }
   .logo-container {
     display: flex;
     width: 100%;
-    @media (max-width: 900px) {
+    @media screen and (max-width: 900px) {
       display: flex;
-      margin-left: -20px;
-      margin-top: 90px;
+      margin-top: 0px;
+      padding: 10px 20px;
     }
     img {
       width: 200px;
       height: 35px;
       &:first-child {
-        margin-left: -40px;
+        margin-left: -30px;
       }
       object-fit: contain;
       @media (max-width: 900px) {
         height: 25px;
         margin-left: 20px;
+        width: 100px;
       }
     }
   }

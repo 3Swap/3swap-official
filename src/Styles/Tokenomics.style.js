@@ -15,6 +15,10 @@ const TokenomicsWrapper = styled.div`
         h1 {
           font-size: 30px;
           font-weight: 800;
+
+          @media screen and (max-width: 900px) {
+            font-size: 35px;
+          }
         }
         p {
           padding-left: 5px;
@@ -44,7 +48,27 @@ const TokenomicsWrapper = styled.div`
       flex: 0.5;
       margin-right: 50px;
       margin-top: 20px;
+
+      @media screen and (max-width: 900px) {
+        width: 100%;
+        margin-right: 0px;
+
+        .chart-container {
+          svg {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+          }
+        }
+      }
     }
+    @media screen and (max-width: 900px) {
+      padding: 0px 30px;
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    padding: 40px 0px;
   }
 `;
 

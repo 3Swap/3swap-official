@@ -25,8 +25,9 @@ const FooterWrapper = styled.div`
     padding: 50px 20px;
     align-items: center;
     color: white;
-    @media (max-width: 900px) {
-      width: 90%;
+    @media screen and (max-width: 900px) {
+      width: 100%;
+      border-radius: 0;
       h1 {
         font-size: 18px;
         align-self: center;
@@ -59,6 +60,15 @@ const FooterWrapper = styled.div`
           font-size: 14px;
           margin-top: 5px;
         }
+        @media screen and (max-width: 900px) {
+          padding: 0;
+        }
+      }
+      @media screen and (max-width: 900px) {
+        width: 100%;
+        padding: 20px;
+        justify-content: space-between;
+        flex-wrap: wrap;
       }
     }
     .buttons {
@@ -73,6 +83,12 @@ const FooterWrapper = styled.div`
       }
       ${Secondary} {
         margin: 0px;
+      }
+      @media screen and (max-width: 900px) {
+        justify-content: center;
+        a {
+          margin: 0px 10px;
+        }
       }
     }
   }

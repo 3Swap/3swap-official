@@ -7,10 +7,10 @@ const AboutWrapper = styled.div`
   background: ${PrimaryColor};
   .about-container {
     margin-top: 60px;
-    @media (max-width: 900px) {
+    @media screen and (max-width: 900px) {
       width: 100%;
-      margin-left: 10px;
       margin-top: 0px;
+      padding: 30px 20px;
     }
 
     h4 {
@@ -22,9 +22,11 @@ const AboutWrapper = styled.div`
       line-height: 4.4rem;
       font-weight: 800;
       max-width: 18ch;
-      @media (max-width: 900px) {
-        width: 90%;
+      @media screen and (max-width: 900px) {
+        width: 100%;
         font-size: 32px;
+        line-height: 45px;
+        margin-bottom: 10px;
       }
     }
     p {
@@ -33,8 +35,11 @@ const AboutWrapper = styled.div`
       margin-left: 8px;
       font-weight: 400;
       color: #dedede;
-      @media (max-width: 900px) {
+      @media screen and (max-width: 900px) {
         line-height: 30px;
+        width: 100%;
+        margin-left: 0;
+        font-size: 14px;
       }
     }
   }
