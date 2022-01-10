@@ -20,7 +20,7 @@ function App() {
       <Why />
       <SocialMedia />
       <Team />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

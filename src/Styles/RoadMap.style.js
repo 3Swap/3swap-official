@@ -5,7 +5,12 @@ const RoadMapWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   margin-top: 30px;
+  h1 {
+    margin-bottom: 10px;
+  }
   @media (max-width: 900px) {
     padding: 20px;
     h1 {
@@ -13,7 +18,7 @@ const RoadMapWrapper = styled.div`
     }
   }
   svg {
-    width: 85%;
+    width: 90%;
     @media (max-width: 900px) {
       display: none;
     }
@@ -21,7 +26,7 @@ const RoadMapWrapper = styled.div`
   .roadmap-content {
     display: flex;
     margin-top: 20px;
-    width: 85%;
+    width: 90%;
     @media (max-width: 900px) {
       flex-direction: column;
       width: 100%;

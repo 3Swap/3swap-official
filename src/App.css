@@ -1,15 +1,25 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-primary: #4500a0;
+  --bg-primary-light: #6e00ff;
+  --bg-secondary: #fceba5;
+  --bg-black: #000000;
+  --text-white: #fff;
 }
 a {
-	text-decoration: none;
-	color: black;
-	font-weight: bold;
+  text-decoration: none;
+  color: var(--bg-black);
+  font-weight: bold;
 }
-body{
-	width: 100vw;
-	overflow-x: hidden;
+button {
+  cursor: pointer;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }

@@ -1,53 +1,50 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const TokenomicsWrapper = styled.div`
-	display: flex;
-	overflow: hidden;
-	@media (max-width: 900px) {
-		flex-direction: column;
-		position: relative;
-	}
-	.tokenomics-container {
-		padding: 40px;
-		@media (max-width: 900px) {
-			padding: 20px;
-		}
-		.chart {
-			width: 700px;
-			margin-top: 50px;
-			@media (max-width: 900px) {
-				width: 95%;
-			}
-		}
-		.tokenomics {
-			display: flex;
-			flex-direction: column;
-			margin-top: 50px;
-			p {
-				width: 290px;
-			}
-		}
-		.details {
-			margin-top: 20px;
-			.container {
-				display: flex;
-				align-items: center;
-				margin-top: 5px;
-				svg {
-					width: 20px;
-					height: 20px;
-				}
-				h3 {
-					margin-left: 10px;
-					font-size: 20px;
-					@media (max-width: 900px) {
-						width: 70%;
-						font-size: 18px;
-					}
-				}
-			}
-		}
-	}
+  display: flex;
+  padding: 80px 0px;
+  .tokenomicsInfo {
+    width: 100%;
+    display: flex;
+
+    .tokenomics-dataset {
+      flex: 0.5;
+      .tokenomics-header {
+        margin-bottom: 20px;
+
+        h1 {
+          font-size: 30px;
+          font-weight: 800;
+        }
+        p {
+          padding-left: 5px;
+          font-weight: 400;
+        }
+      }
+      .tokenomics-data {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        span {
+          display: flex;
+
+          &:last-child {
+            font-size: 16px;
+            font-weight: 700;
+          }
+        }
+        svg {
+          width: 30px;
+          height: 20px;
+        }
+      }
+    }
+    .tokenomics-chart {
+      flex: 0.5;
+      margin-right: 50px;
+      margin-top: 20px;
+    }
+  }
 `;
 
 export default TokenomicsWrapper;
