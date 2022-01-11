@@ -11,7 +11,7 @@ import {
 } from '../Styles/Nav.style';
 
 function Nav() {
-  const [clicked, setClicked] = useState(true);
+  const [clicked, setClicked] = useState(false);
 
   const handleClick = () => setClicked(!clicked);
   return (
