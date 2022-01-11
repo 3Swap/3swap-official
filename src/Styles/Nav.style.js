@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 export const NavWrapper = styled.div`
   display: flex;
@@ -79,6 +80,20 @@ export const NavWrapper = styled.div`
     }
     @media screen and (max-width: 900px) {
       display: flex;
+      cursor: pointer;
+    }
+    .faBars {
+      background: var(--bg-primary);
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+
+      .icon {
+        font-size: 45px;
+        padding: 10px;
+        color: #fff;
+        display: flex;
+      }
     }
   }
 `;
@@ -91,5 +106,49 @@ export const Container = styled.div`
 
   @media (min-width: 1400px) {
     max-width: 1400px;
+  }
+`;
+
+export const NavMenu = styled.ul`
+  display: none;
+
+  @media screen and (max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 110px;
+    height: 95%;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    left: ${({ clicked }) => (clicked ? 0 : '-100%')};
+    z-index: 10;
+    transition: all 0.5s ease;
+    background: var(--bg-primary);
+    color: #fff;
+  }
+  @media screen and (max-width: 375px) {
+    height: 90%;
+  }
+`;
+export const NavItem = styled.li`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 8px 0px;
+`;
+export const NavLinks = styled(Link)`
+  @media screen and (max-width: 900px) {
+    text-align: center;
+    align-items: center;
+    padding: 0.75rem 2rem;
+    width: 100%;
+    display: table;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
   }
 `;
