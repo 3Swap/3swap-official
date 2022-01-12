@@ -82,11 +82,94 @@ const HeroWrapper = styled.div`
     @media screen and (max-width: 900px) {
       padding: 0px 20px 0px 20px;
       text-align: left;
-
+      height: 90vh;
       h1 {
         width: 100%;
         font-size: 25px;
         line-height: 38px;
+      }
+    }
+    // Ipad
+    @media screen and (max-width: 768px) {
+      height: 70vh;
+      h1 {
+        font-size: 50px;
+        padding-top: 50px;
+        line-height: 60px;
+      }
+    }
+    // 540 by 720
+    @media screen and (max-width: 540px) {
+      height: 100vh;
+      padding-top: 0px;
+      h1 {
+        font-size: 30px;
+        margin-top: -10px;
+        line-height: 50px;
+      }
+      .cta-wrapper-right {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+
+        img {
+          height: 300px;
+          margin-top: 0px;
+        }
+      }
+    }
+    //  Iphone 6/7/8 Plus
+    @media screen and (max-width: 414px) {
+      height: 70vh;
+      h1 {
+        font-size: 25px;
+        margin-top: 10px;
+        line-height: 34px;
+        padding-top: 8px;
+      }
+      .cta-wrapper-right {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+
+        img {
+          height: 300px;
+          margin-top: 0px;
+        }
+      }
+    }
+    // Iphone Xs,X
+    @media screen and (max-width: 375px) {
+      height: 80vh;
+      h1 {
+        margin-top: 10px;
+      }
+      .cta-wrapper-right {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+
+        img {
+          height: auto;
+          margin-top: -10px;
+        }
+      }
+    }
+    // Iphone 5/SE
+    @media screen and (max-width: 320px) {
+      height: 100vh;
+      h1 {
+        margin-top: 10px;
+      }
+      .cta-wrapper-right {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+
+        img {
+          height: auto;
+          margin-top: 0px;
+        }
       }
     }
   }
