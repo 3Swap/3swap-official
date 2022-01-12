@@ -99,6 +99,10 @@ const HeroWrapper = styled.div`
     @media screen and (max-width: 900px) {
       height: 100%;
       margin-bottom: -10px;
+      background: var(--bg-primary);
+      border-top-right-radius: 50px;
+      border-top-left-radius: 50px;
+      padding-left: 15px;
     }
   }
 
@@ -139,6 +143,9 @@ const HeroWrapper = styled.div`
         height: 25px;
         margin-left: 20px;
         width: 100px;
+      }
+      @media screen and (max-width: 375px) {
+        width: 95px;
       }
     }
   }
