@@ -8,7 +8,7 @@ import {
 } from '../Assets/Utility';
 import { Primary } from '../Styles/Buttons.style';
 import HeroWrapper from '../Styles/Hero.style';
-import { Container } from '../Styles/Nav.style';
+import { Container, NavLinks } from '../Styles/Nav.style';
 
 function Hero() {
   return (
@@ -29,7 +29,9 @@ function Hero() {
                   fees
                 </p>
                 <Primary>
-                  <a href="/">See upcoming sales</a>
+                  <NavLinks to="ico" className="btn">
+                    See upcoming sales
+                  </NavLinks>
                 </Primary>
               </div>
             </div>

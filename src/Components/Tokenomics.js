@@ -3,7 +3,7 @@ import TokenomicsWrapper from '../Styles/Tokenomics.style';
 
 function Tokenomics() {
   return (
-    <TokenomicsWrapper>
+    <TokenomicsWrapper id="token">
       <Container>
         <div className="tokenomicsInfo">
           <div className="tokenomics-dataset">

@@ -41,7 +41,18 @@ const HeroWrapper = styled.div`
       @media (max-width: 900px) {
         margin-left: 80px;
         width: 70%;
+        .btn {
+          font-size: 14px;
+          color: #000;
+        }
       }
+      @media screen and (max-width: 375px) {
+        .btn {
+          font-size: 14px;
+          color: #000;
+        }
+      }
+
       p {
         font-size: 16px;
         max-width: 30ch;
@@ -61,7 +72,7 @@ const HeroWrapper = styled.div`
       }
       @media (max-width: 900px) {
         width: 60px;
-        margin-left: 10px;
+        margin-left: 0px;
 
         img {
           height: 70px;
@@ -70,7 +81,7 @@ const HeroWrapper = styled.div`
     }
     @media screen and (max-width: 900px) {
       padding: 0px 20px 0px 20px;
-      text-align: center;
+      text-align: left;
 
       h1 {
         width: 100%;
@@ -79,12 +90,16 @@ const HeroWrapper = styled.div`
       }
     }
   }
-
   .cta-supported-by {
     background: url(${Bg});
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
+
+    @media screen and (max-width: 900px) {
+      height: 100%;
+      margin-bottom: -10px;
+    }
   }
 
   .sponsors {
@@ -98,6 +113,7 @@ const HeroWrapper = styled.div`
       @media screen and (max-width: 900px) {
         margin-top: 25px;
         margin-bottom: 5px;
+        font-size: 20px;
       }
     }
     @media screen and (max-width: 900px) {

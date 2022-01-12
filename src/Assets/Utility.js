@@ -24,7 +24,8 @@ import Img3 from './Img3.png';
 import Img4 from './Img4.png';
 import coins from './Coins.png';
 import bg from './bg.png';
-
+export { Navigation } from './Navlinks.data';
+export { Link as LinkScroll } from 'react-scroll';
 export const Logo = LogoRaw;
 export const NavBg = navBG;
 export const Vefi = vefiLogo;
@@ -55,5 +56,5 @@ export const Bg = bg;
 // Colors
 
 export const SplashColor = '#FCE8A5';
-export const SecondaryColor = '#6E00FF';
-export const PrimaryColor = '#4500A0';
+export const SecondaryColor = '#4500A0';
+export const PrimaryColor = '#6E00FF';

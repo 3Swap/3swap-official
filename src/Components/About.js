@@ -3,7 +3,7 @@ import { Container } from '../Styles/Nav.style';
 
 function About() {
   return (
-    <AboutWrapper>
+    <AboutWrapper id="about">
       <Container>
         <div className="about-container">
           <h4> About us</h4>

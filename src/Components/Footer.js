@@ -4,7 +4,7 @@ import { Container } from '../Styles/Nav.style';
 
 function Footer() {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="ico">
       <Container>
         <div className="footer-container">
           <h1>Participate in our next activity</h1>
@@ -28,12 +28,12 @@ function Footer() {
               </div>
               <h3>Mins</h3>
             </div>
-            <div className="count-container">
+            {/* <div className="count-container">
               <div className="count">
                 <h1>00</h1>
               </div>
               <h3>Secs</h3>
-            </div>
+            </div> */}
           </div>
           <div className="buttons">
             <Primary>

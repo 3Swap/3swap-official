@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  --bg-primary: #4500a0;
+  --bg-primary: #6e00ff;
   --bg-primary-light: #6e00ff;
   --bg-secondary: #fceba5;
   --bg-black: #000000;
@@ -18,8 +18,24 @@ a {
 button {
   cursor: pointer;
 }
+html,
 body {
   width: 100vw;
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+img {
+  max-width: 100%;
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  outline: none;
+  border: none;
 }

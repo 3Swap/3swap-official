@@ -3,7 +3,7 @@ import RoadMapWrapper from '../Styles/RoadMap.style';
 
 function RoadMap() {
   return (
-    <RoadMapWrapper>
+    <RoadMapWrapper id="roadmap">
       <Container>
         <h1>Preliminary Roadmap</h1>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1503 32">

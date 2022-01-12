@@ -18,10 +18,11 @@ const AboutWrapper = styled.div`
     }
     h1 {
       color: white;
-      font-size: 60px;
-      line-height: 4.4rem;
+      font-size: 50px;
+      line-height: 3.5rem;
       font-weight: 800;
       max-width: 18ch;
+      margin: 5px 0px;
       @media screen and (max-width: 900px) {
         width: 100%;
         font-size: 32px;

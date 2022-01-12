@@ -39,7 +39,7 @@ const SocialMediaWrapper = styled.div`
         max-width: 25ch;
         font-size: 32px;
         line-height: 40px;
-        color: #fff;
+        color: #fce8a5;
         font-weight: 800;
         @media screen and (max-width: 900px) {
           width: 100%;
@@ -52,7 +52,8 @@ const SocialMediaWrapper = styled.div`
         font-size: 16px;
         width: 500px;
         margin: 20px 0 30px 0;
-        color: #ccc;
+        color: #fff;
+        opacity: 0.9;
 
         @media (max-width: 900px) {
           width: 100%;

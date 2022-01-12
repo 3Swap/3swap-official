@@ -67,7 +67,7 @@ const FooterWrapper = styled.div`
       @media screen and (max-width: 900px) {
         width: 100%;
         padding: 20px;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-wrap: wrap;
       }
     }

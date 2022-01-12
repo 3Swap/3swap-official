@@ -10,7 +10,7 @@ import WhyWrapper from '../Styles/Why.style';
 
 function Why() {
   return (
-    <WhyWrapper>
+    <WhyWrapper id="feature">
       <Container>
         <div className="why-content">
           <h1>Why invest in 3swap</h1>

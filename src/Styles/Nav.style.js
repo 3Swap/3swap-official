@@ -1,9 +1,10 @@
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { LinkScroll } from '../Assets/Utility';
 export const NavWrapper = styled.div`
   display: flex;
   width: 100%;
   height: 60px;
+
   align-items: center;
 
   @media screen and (max-width: 900px) {
@@ -15,11 +16,14 @@ export const NavWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    width: 100%;
     .logo {
       flex: 0.3;
+      padding-left: 80px;
+      margin-right: -50px;
       height: 60px;
       display: flex;
+      margin-top: 10px;
       align-items: center;
       img {
         width: 150px;
@@ -28,11 +32,14 @@ export const NavWrapper = styled.div`
 
         @media screen and (max-width: 900px) {
           height: 130px;
-          width: 100%;
+          width: 150px;
         }
       }
       @media screen and (max-width: 900px) {
         flex: 1;
+        padding-left: 0px;
+      }
+      @media (min-width: 1400px) {
       }
     }
     .navigation {
@@ -118,7 +125,7 @@ export const NavMenu = styled.ul`
     width: 100%;
     position: absolute;
     top: 110px;
-    height: 95%;
+    height: 80%;
     padding-bottom: 40px;
     align-items: center;
     justify-content: center;
@@ -139,8 +146,13 @@ export const NavItem = styled.li`
   display: flex;
   align-items: center;
   margin: 8px 0px;
+
+  @media screen and (max-width: 900px) {
+    margin: 5px 0px;
+  }
 `;
-export const NavLinks = styled(Link)`
+export const NavLinks = styled(LinkScroll)`
+  cursor: pointer;
   @media screen and (max-width: 900px) {
     text-align: center;
     align-items: center;
