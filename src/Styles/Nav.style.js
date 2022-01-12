@@ -164,3 +164,43 @@ export const NavLinks = styled(LinkScroll)`
     font-size: 20px;
   }
 `;
+
+export const Background = styled.div`
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+`;
+export const ModalWrapper = styled.div`
+  width: 100%;
+  max-width: ${(props) =>
+    props.mxWidth === 'sm'
+      ? '400px'
+      : props.mxWidth === 'md'
+      ? '600px'
+      : props.mxWidth === 'lg'
+      ? '800px'
+      : '1000px'};
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  color: var(--bg-primary);
+  position: relative;
+  z-index: 3;
+  padding: 20px 30px;
+  border-radius: 20px;
+
+  button {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+`;
