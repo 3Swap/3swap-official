@@ -20,14 +20,17 @@ const FooterWrapper = styled.div`
     width: 100%;
     border-radius: 50px 50px 0 0;
     background: ${PrimaryColor};
+
     display: flex;
     flex-direction: column;
     padding: 50px 20px;
     align-items: center;
     color: white;
     @media screen and (max-width: 900px) {
-      width: 100%;
-      border-radius: 0;
+      width: 90%;
+      margin: 0px auto;
+      border-top-right-radius: 50px;
+      border-top-left-radius: 50px;
       h1 {
         font-size: 18px;
         align-self: center;
@@ -85,9 +88,10 @@ const FooterWrapper = styled.div`
         margin: 0px;
       }
       @media screen and (max-width: 900px) {
+        flex-direction: column;
         justify-content: center;
-        a {
-          margin: 0px 10px;
+        ${Secondary} {
+          margin-top: 20px;
         }
       }
     }
