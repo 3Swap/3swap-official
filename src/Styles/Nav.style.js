@@ -203,4 +203,8 @@ export const ModalWrapper = styled.div`
     padding: 15px;
     margin-bottom: 30px;
   }
+
+  @media screen and (max-width: 768px) {
+    width: 95%;
+  }
 `;
