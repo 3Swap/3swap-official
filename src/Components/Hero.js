@@ -6,8 +6,9 @@ import {
   Tatswap,
   Vefi,
 } from '../Assets/Utility';
+import { Primary } from '../Styles/Buttons.style';
 import HeroWrapper from '../Styles/Hero.style';
-import { Container, NavLink, NavLinks } from '../Styles/Nav.style';
+import { Container, NavLink } from '../Styles/Nav.style';
 import Button from './Button';
 
 function Hero() {
@@ -28,21 +29,11 @@ function Hero() {
                   Swap tokens the way of the future, one click, more swaps, less
                   fees
                 </p>
-                <div className="cta-wrapper">
-                  <div className="cta-wrap">
-                    <NavLinks to="ico" className="btn">
-                      <Button label="See upcoming sales" bgColor="#FCE8A5" />
-                    </NavLinks>
-                    <NavLink to="/demo">
-                      <Button
-                        label="Demo App"
-                        bgColor="var(--bg-primary)"
-                        hoverBg="var(--bg-primary-light)"
-                        hoverColor="#fff"
-                      />
-                    </NavLink>
-                  </div>
-                </div>
+                <Primary>
+                  <NavLink to="/demo" className="btn">
+                    Demo App
+                  </NavLink>
+                </Primary>
               </div>
             </div>
           </div>

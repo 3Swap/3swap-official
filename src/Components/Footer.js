@@ -3,15 +3,15 @@ import { useDispatch } from 'react-redux';
 import { Primary, Secondary } from '../Styles/Buttons.style';
 import FooterWrapper from '../Styles/Footer.style';
 import { Container } from '../Styles/Nav.style';
-import { openConnectWalletModal } from '../redux/toggleSlice';
+import { openModal } from '../redux/toggleSlice';
 
 function Footer() {
   const dispatch = useDispatch();
-  // const [connected] = useState(false);
 
-  const handleConnectWallet = () => {
-    dispatch(openConnectWalletModal());
+  const handleOpenModal = () => {
+    dispatch(openModal());
   };
+
   return (
     <FooterWrapper id="ico">
       <Container>
@@ -46,7 +46,7 @@ function Footer() {
           </div>
           <div className="buttons">
             <Primary>
-              <button onClick={handleConnectWallet}>Participate</button>
+              <button onClick={handleOpenModal}>Participate</button>
             </Primary>
             <Secondary>
               <a href="/">Read whitepaper</a>
