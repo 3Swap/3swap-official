@@ -9,7 +9,6 @@ import {
 import { Primary } from '../Styles/Buttons.style';
 import HeroWrapper from '../Styles/Hero.style';
 import { Container, NavLink } from '../Styles/Nav.style';
-import Button from './Button';
 
 function Hero() {
   return (
