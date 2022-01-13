@@ -1,41 +1,49 @@
-import styled from "styled-components";
-import { PrimaryColor, SplashColor } from "../Assets/Utility";
+import styled from 'styled-components';
+import { PrimaryColor, SplashColor } from '../Assets/Utility';
 
 const AboutWrapper = styled.div`
-	padding: 20px;
-	padding-bottom: 40px;
-	background: ${PrimaryColor};
-	.about-container {
-		width: 60%;
-		margin-left: 30px;
-		margin-top: 60px;
-		@media (max-width: 900px) {
-			width: 100%;
-			margin-left: 10px;
-			margin-top: 0px;
-		}
+  padding: 20px;
+  padding-bottom: 80px;
+  background: ${PrimaryColor};
+  .about-container {
+    margin-top: 60px;
+    @media screen and (max-width: 900px) {
+      width: 100%;
+      margin-top: 0px;
+      padding: 30px 20px;
+    }
 
-		h4 {
-			color: ${SplashColor};
-		}
-		h1 {
-			color: white;
-			font-size: 45px;
-			width: 60%;
-			@media (max-width: 900px) {
-				width: 90%;
-				font-size: 32px;
-			}
-		}
-		p {
-			font-size: 18px;
-			width: 90%;
-			color: #dedede;
-			@media (max-width: 900px) {
-				line-height: 30px;
-			}
-		}
-	}
+    h4 {
+      color: ${SplashColor};
+    }
+    h1 {
+      color: white;
+      font-size: 50px;
+      line-height: 3.5rem;
+      font-weight: 800;
+      max-width: 18ch;
+      margin: 5px 0px;
+      @media screen and (max-width: 900px) {
+        width: 100%;
+        font-size: 32px;
+        line-height: 45px;
+        margin-bottom: 10px;
+      }
+    }
+    p {
+      font-size: 16px;
+      width: 90%;
+      margin-left: 8px;
+      font-weight: 400;
+      color: #dedede;
+      @media screen and (max-width: 900px) {
+        line-height: 30px;
+        width: 100%;
+        margin-left: 0;
+        font-size: 14px;
+      }
+    }
+  }
 `;
 
 export default AboutWrapper;
