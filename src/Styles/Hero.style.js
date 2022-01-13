@@ -61,6 +61,17 @@ const HeroWrapper = styled.div`
           font-size: 14px;
         }
       }
+      .cta-wrap {
+        display: flex;
+        margin-top: -60px;
+        align-items: center;
+        button {
+          margin-left: 10px;
+        }
+        &:first-child {
+          margin-left: -12px;
+        }
+      }
     }
     .hero-arrow {
       position: absolute;

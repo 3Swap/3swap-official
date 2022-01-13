@@ -1,16 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useDispatch } from 'react-redux';
 import { Primary, Secondary } from '../Styles/Buttons.style';
 import FooterWrapper from '../Styles/Footer.style';
 import { Container } from '../Styles/Nav.style';
-import { openModal, openConnectWalletModal } from '../redux/toggleSlice';
+import { openConnectWalletModal } from '../redux/toggleSlice';
 
 function Footer() {
   const dispatch = useDispatch();
-  const [connected] = useState(false);
-  const handleOpenModal = () => {
-    dispatch(openModal());
-  };
+  // const [connected] = useState(false);
+
   const handleConnectWallet = () => {
     dispatch(openConnectWalletModal());
   };
@@ -48,11 +46,7 @@ function Footer() {
           </div>
           <div className="buttons">
             <Primary>
-              <button
-                onClick={connected ? handleOpenModal : handleConnectWallet}
-              >
-                Participate
-              </button>
+              <button onClick={handleConnectWallet}>Participate</button>
             </Primary>
             <Secondary>
               <a href="/">Read whitepaper</a>

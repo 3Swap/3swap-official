@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { LinkScroll } from '../Assets/Utility';
 export const NavWrapper = styled.div`
@@ -164,12 +165,12 @@ export const NavLinks = styled(LinkScroll)`
     font-size: 20px;
   }
 `;
-
+export const NavLink = styled(Link)``;
 export const Background = styled.div`
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  position: fixed;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
